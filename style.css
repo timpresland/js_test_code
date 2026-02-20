@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding-top: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #e100ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+h1 {
+    color: #4b502c;          /* Changes the text color */
+    font-size: 48px;         /* Makes the text larger */
+    font-family: 'Arial';    /* Changes the font style */
+    text-align: center;      /* Centers the heading on the page */
+    /*text-transform: uppercase; /* Makes all letters capital */
+    letter-spacing: 2px;     /* Adds space between letters */
+    margin-top: 50px;        /* Adds space above the heading */
+}
+
+body {
+     background-image: url('background.jpg');
+    /* This ensures the image covers the whole screen without stretching */
+    background-size: cover;
+    /* This keeps the image from repeating if it's smaller than the screen */
+    background-repeat: no-repeat;
+    /* This keeps the image fixed so it doesn't move when you scroll */
+    background-attachment: fixed;
+    /* This centers the image */
+    background-position: center;
+}
