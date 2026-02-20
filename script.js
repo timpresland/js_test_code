@@ -5,15 +5,15 @@ const greeting = document.getElementById('greeting');
 // Add a "click" event listener
 button.addEventListener('click', () => {
     // Change the text and color when clicked
-    if(greeting.textContent=="You clicked the button!")
-    {
-        greeting.textContent = "Clicked back!";
-        greeting.style.color = "white";
-    }
-    else
-    {
-        greeting.textContent = "You clicked the button!";
-        greeting.style.color = "yellow";
-    }
+    greeting.textContent = "button clicked!";
+    greeting.style.color = "yellow";
+
+    let admin;
+    let name = "John";
+
+    admin = name;
+
+    alert("Value of admin="+admin);
+
     console.log("The button was clicked successfully.");
 });
