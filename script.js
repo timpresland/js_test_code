@@ -13,7 +13,7 @@ button.addEventListener('click', () => {
     else
     {
         greeting.textContent = "You clicked the button!";
-        greeting.style.color = "red";
+        greeting.style.color = "yellow";
     }
     console.log("The button was clicked successfully.");
 });
