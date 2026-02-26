@@ -5,10 +5,14 @@ const greeting = document.getElementById('greeting');
 // Add a "click" event listener
 button.addEventListener('click', () => {
     // Change the text and color when clicked
-    greeting.textContent = "button clicked!";
+    greeting.textContent = "clicked!";
     greeting.style.color = "yellow";
 
-    let isBoss = confirm("Annother question");
+    alert("Hello");
 
-    alert(isBoss); // true if OK is pressed
+    let b=0;
+    let a = (b = 1 + 2, 3 + 4);
+
+    let outString = "a=" + a + " b=" + b;
+    alert( outString);
 });
