@@ -8,7 +8,7 @@ button.addEventListener('click', () => {
     greeting.textContent = "button clicked!";
     greeting.style.color = "yellow";
 
-    let age = prompt('How old are you?', 100);
+    let isBoss = confirm("Are you the boss?");
 
-    alert(`You are ${age} years old!`); // You are 100 years old!
+    alert(isBoss); // true if OK is pressed
 });
