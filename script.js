@@ -8,7 +8,7 @@ button.addEventListener('click', () => {
     greeting.textContent = "button clicked!";
     greeting.style.color = "yellow";
 
-    let isBoss = confirm("Are you the boss?");
+    let isBoss = confirm("Are you the boss???");
 
     alert(isBoss); // true if OK is pressed
 });
