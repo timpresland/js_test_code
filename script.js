@@ -8,11 +8,8 @@ button.addEventListener('click', () => {
     greeting.textContent = "clicked!";
     greeting.style.color = "yellow";
 
-    alert("Hello");
-
-    let b=0;
-    let a = (b = 1 + 2, 3 + 4);
-
-    let outString = "a=" + a + " b=" + b;
-    alert( outString);
-});
+    // equality comparison converts to numbers, but not if value is null or undefined
+    // comparisons convert null to number (0)
+    // comparisons convert different types to numbers
+    
+})
